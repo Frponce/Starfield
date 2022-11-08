@@ -3,7 +3,7 @@ String txt;
 float y = 0;
 void setup()
 {
- size(500, 500, P3D);
+ size(700, 500, P3D);
     String [] lines = loadStrings("space.txt");
     txt = join(lines, "\n");
     y = height/2;
